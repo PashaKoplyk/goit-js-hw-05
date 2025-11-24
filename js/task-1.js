@@ -1,3 +1,5 @@
+const getUserNames = (users) => users.map(user => user.name);
+
 console.log(
   getUserNames([
   {
@@ -36,10 +38,5 @@ console.log(
     balance: 2764
   },
 ])
-); // ["Moore Hensley", "Sharlene Bush", "Ross Vazquez", "Elma Head", "Carey Barr", "Blackburn Dotson", "Sheree Anthony"]
-
-function getUserNames(users) {
-  // Change code below this line
-  return users.map(user => user.name);
-  // Change code above this line
-}       
+);
+// ["Moore Hensley", "Sharlene Bush", "Ross Vazquez", "Elma Head", "Carey Barr", "Blackburn Dotson", "Sheree Anthony"]
